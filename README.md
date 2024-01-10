@@ -1,1 +1,1 @@
-"# Jenkins SCM Integration exercise repo" 
+# Jenkins SCM Integration exercise repo
