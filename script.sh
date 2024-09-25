@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "This is an example script" >> output.txt
-echo "It creates another script, which updates Debian based Ubuntu OS" >> output.txt
+echo "This is an example script" | sed -a output.txt
+echo "It creates another script, which updates Debian based Ubuntu OS" | sed -a output.txt
 
-echo "#!/bin/bash" >> update_ubuntu.sh
-echo "apt-get update" >> update_ubuntu.sh
+echo "#!/bin/bash" | sed -a update_ubuntu.sh
+echo "apt-get update" | sed -a update_ubuntu.sh
